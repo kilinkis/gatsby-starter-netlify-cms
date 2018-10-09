@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Img from "gatsby-image";
 
-export const AboutPageTemplate = ({
+export const BioPageTemplate = ({
   title,
   content,
   contentComponent,
@@ -32,20 +32,20 @@ export const AboutPageTemplate = ({
   );
 };
 
-AboutPageTemplate.propTypes = {
+BioPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func
 };
 
-const AboutPage = ({ data }) => {
+const BioPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   //console.log("data " + JSON.stringify(data.file));
 
   return (
     <Layout>
-      <AboutPageTemplate
+      <BioPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -55,13 +55,13 @@ const AboutPage = ({ data }) => {
   );
 };
 
-AboutPage.propTypes = {
+BioPage.propTypes = {
   data: PropTypes.object.isRequired
 };
 
-export default AboutPage;
+export default BioPage;
 
-export const aboutPageQuery = graphql`
+export const bioPageQuery = graphql`
   query BioPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
