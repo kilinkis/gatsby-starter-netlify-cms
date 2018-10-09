@@ -1,5 +1,12 @@
 # Gatsby + Netlify CMS Starter
 
+Some additional notes for newbies (like me):
+Pages are added on config.yml
+Pages content is stored in the MD files.
+These files are edited through the admin.
+You can edit them manually too but you won't see changes until commited and merged.
+
+
 **Note:** This starter uses the [Gatsby v2 Beta](https://www.gatsbyjs.org/blog/2018-06-16-announcing-gatsby-v2-beta-launch/).
 
 This repo contains an example business website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org): **[Demo Link](https://gatsby-netlify-cms.netlify.com/)**.
