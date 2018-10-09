@@ -22,7 +22,6 @@ export const BioPageTemplate = ({
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <Img fixed={image.childImageSharp.fixed} />
               <PageContent className="content" content={content} />
             </div>
           </div>
@@ -67,15 +66,6 @@ export const bioPageQuery = graphql`
       html
       frontmatter {
         title
-      }
-    }
-    file(relativePath: { eq: "profile-pic-cropped-min.jpg" }) {
-      childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
-        fixed(width: 125, height: 125) {
-          ...GatsbyImageSharpFixed
-        }
       }
     }
   }
