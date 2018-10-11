@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 //import Img from "gatsby-image";
-import { Window, TitleBar, Text } from "react-desktop/macOs";
+import { Window, TitleBar } from "react-desktop/macOs";
 import Typist from "react-typist";
 
 export const BioPageTemplate = ({
@@ -31,12 +31,12 @@ export const BioPageTemplate = ({
               <TitleBar title="website" controls />
               <Typist>{content}</Typist>
             </Window>
-            {/* <div className="section">
+            <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
