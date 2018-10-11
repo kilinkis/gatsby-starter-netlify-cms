@@ -29,7 +29,7 @@ export const BioPageTemplate = ({
               padding="0"
             >
               <TitleBar title="website" controls />
-              <Text>Hello World</Text>
+              <Typist>{content}</Typist>
             </Window>
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
