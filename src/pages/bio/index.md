@@ -2,17 +2,10 @@
 templateKey: bio-page
 title: Bio title set from the web!
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+Howdy! I'm a web developer from beautiful Mar del Plata (below), Argentina. Although I may be [somewhere else](https://www.instagram.com/kilinkis/).
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+I have more than 10 years of experience in web development, where my expertise is WordPress (I have a PHP background) and front end technologies. 
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Currently I lead the Front-end Development Team at prestigious [Mobomo, LLC.](https://clutch.co/developers/wordpress/research), a Washington D.C. company with clients like Mars, USO and NASA.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+I pay extra attention to details and love to see my products have a nice bold finish. I consider myself passionate about web development and believe in working hard every day.
