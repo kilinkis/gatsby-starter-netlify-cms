@@ -3,7 +3,9 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import Img from "gatsby-image";
+//import Img from "gatsby-image";
+import { Window, TitleBar, Text } from "react-desktop/macOs";
+import Typist from "react-typist";
 
 export const BioPageTemplate = ({
   title,
@@ -15,6 +17,17 @@ export const BioPageTemplate = ({
 
   return (
     <section className="section section--gradient">
+      <Window
+        chrome
+        height="500px"
+        width="50%"
+        background="#000"
+        className="window"
+        padding="0"
+      >
+        <TitleBar title="website" controls />
+        <Typist>{content}</Typist>
+      </Window>
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
